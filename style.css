@@ -1,0 +1,471 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*------------Top Header--------------*/
+
+.mini-header{
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #fff;
+    background-color:#2FA5EB !important;
+    
+}
+.header-contact span:first-child{
+	margin-right: 10px;
+}
+.social-icons .fa 
+{
+	height: 25px;
+	width: 25px;
+	background: #fff;
+	padding: 4px;
+	border-radius: 50%;
+	list-style: none;
+	display: inline-block;
+
+	margin: 10px 10px;
+}
+
+/*--------------NavigationBar--------------*/
+#nav-bar
+{ 
+	position: sticky;
+	top: 10;
+	z-index: 10;
+}
+.navbar-brand img
+{
+height: 40px;
+padding-left: 20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+ #nav-bar ul li a:hover
+ {
+ 	color: #071bff!important;
+ } 
+ .navbar
+{
+	background: #fff;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight: 500;
+	font-size: 13px;
+}
+/*----Slider------*/
+#slider
+{
+	width: 100%;
+}
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-caption h5
+{
+	color: #fff;
+	font-size: 45px;
+}
+/*--------Grid System---------*/
+#Grid{
+	background-color: #fff;
+	border-radius: 10px;
+}
+.border p-5{
+	box-shadow: 0 0 7px #ccc;
+		
+			padding: 0px 0px 0px 0px;
+			 width: 290px;
+    height: 260px;
+    margin: 20px;
+}
+ 
+
+/*--------paragraph----------*/
+#pa
+{
+	padding: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+.iphone6{
+	 font-size: 30px; 
+	 font-family: Lato; 
+	 padding-left: 170px;  
+	 color:#1E8093;
+}
+.pa-content
+{
+	padding-top: 20px;
+
+}
+.hospital{
+	border-radius:  90px;
+	 padding-left: 	0px;
+	     margin: 20px;
+}
+/*---------------About Us----------------*/
+#intro{
+	background-color: #f0fbff9c;
+}
+
+.intro{
+	padding: 50px;
+	padding-bottom: 50px;
+
+}
+.intro p{
+	padding-top: 20px;
+	  color: #9e9e9e;
+}
+.intro h3
+{
+	text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    color:#1E8093;
+    font-size: 26px;
+    opacity: 1;
+    visibility: visible;
+}
+#other{
+	background-color: #f0fbff9c;
+}
+  .other blockquote {
+    color: #9e9e9e;
+    margin: 40px 7%;
+    padding-left: 20px;
+    border-left: 5px solid #ddd;
+}
+.other h3
+{
+	text-align: left;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    color:#1E8093;
+    font-size: 26px;
+    opacity: 1;
+    visibility: visible;
+}
+.other blockquote li {
+    list-style: none;
+}
+/*--------------CEO------*/
+#over img{
+	display: flex;
+    width: 186px;
+    height: 210px;
+    max-width: 100%;
+   vertical-align: top; 
+   border-radius: 20px;
+   padding-top: 10px;
+}
+/*----------------- Display Page Title Section--------------*/
+.page-title  {
+	 padding: 50px 0;
+    font-family: Lato;
+    font-weight: 900;
+    font-style: normal;
+    color: #222222;
+    font-size: 44px;
+    opacity: 1;
+    visibility: visible;
+      
+    }
+
+
+/*----------------Breadcrumb Section--------------*/
+.breadcrumb{
+	padding:  4px 0px 5px 0;
+	list-style: none;
+	font-family:"Open Sans";
+	font-weight:400;
+	font-style:normal;
+	color:#9c9c9c;
+	font-size:11px;
+	opacity: 1;
+}
+.breadcrumb a{
+	color: #6e868c;
+}
+
+.breadcrumb_last {
+  text-decoration: none;
+  color: #9c9c9c;
+}
+.back:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+/*-------Doctors-----*/
+#doctors
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+
+}
+h1::after
+{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+.profile-pic
+{
+	margin-top:25px; 
+	
+}
+.profile-pic .img-box
+{
+	opacity: 1;
+	display: block;
+	position: relative;
+	border-style: none;
+}
+.profile-pic .img-box img
+{
+	filter: grayscale(1);
+	border-radius: 30px;
+}
+.profile-pic .img-box img:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+.profile-pic h2
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff!important;
+}
+.profile-pic p
+{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+#doctors{
+	background-color: #f0fbff9c;
+}
+#doctors .fa 
+{
+	height: 25px;
+	width: 25px;
+	color: #007bff !important;
+	background: #fff;
+	padding: 4px;
+	border-radius: 50%;
+}
+.img-box ul
+{
+	padding: 15px 0;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+.img-box ul li
+{
+	padding: 5px;
+	display: inline-block;
+}
+.img-box:hover ul 
+{
+   opacity: 1;
+}
+.img-box ul, .img-box ul li
+{
+	transition: 0.5s;
+}
+/*----------------Departments---------------*/
+#departments{
+	background-color: #f0fbff9c;
+}
+.pic .img-box img
+{
+	filter: grayscale(0);
+	border-radius: 30px;
+}
+.pic .img-box img:hover
+{
+	filter: grayscale(1);
+	cursor: pointer;
+}
+.border{
+    display: inline-block;
+    width: 290px;
+    height: 220px;
+    margin: 20px;
+    border-radius:20px;
+}
+
+/*------------form-control in Appointment Book------------*/
+
+#appointment{
+	background-color: #f0fbff9c;
+	align-items: center;
+}
+span.label {
+    display: inline;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #000000;
+    font-family: Roboto;	
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+/*----------------services---------------*/
+#services{
+	background-color: #f0fbff9c;
+}
+.pic .img-box img
+{
+	filter: grayscale(0);
+	border-radius: 30px;
+}
+.pic .img-box img:hover
+{
+	filter: grayscale(1);
+	cursor: pointer;
+}
+.border{
+    display: inline-block;
+    width: 290px;
+    height: 220px;
+    margin: 20px;
+    border-radius:20px;
+}
+
+ /* -----------------Content Us---------*/
+.border-line{
+	border-right-width: 1px !important;
+    padding-top: 30px !important;
+    padding-right: 30px !important;
+    
+    border-right-color: #d6d6d6 !important;
+    border-right-style: solid !important;
+    padding-left: 160px;
+    text-align: center;
+}
+.border-email{
+	border-right-width: 1px !important;
+    padding-top: 30px !important;
+    padding-right: 30px !important;
+    
+    
+    padding-left: 160px;
+    text-align: center;
+}
+
+
+/*---------------------contect us  before footer----------- */
+.footer{ 
+	
+	 padding: 60px 20px 0px;
+	  } 
+  
+.footer h3{ 
+ margin-bottom: 20px; 
+  font-size: 18px; 
+ }
+ .footer-col-1,.footer-col-3,.footer-col-4{ min-width: 250px; 
+  	margin-bottom:20px;
+  	 } 
+ .footer-col-1{ flex-basis: 34%;
+ 	color: #9e9e9e;
+  } 
+  .footer-col-1 p { 
+  	color: #9e9e9e;
+  } 
+ 
+.footer-col-4{ 
+	flex-basis: 20%; 
+	text-align: left;
+
+	 } 
+	 .footer-col-4 li{ 
+	    color: #9e9e9e;
+	   text-align: left;
+	 } 
+	 .footer-col-3{ 
+	flex-basis: 10%; 
+	text-align: left;
+
+	 } 
+	 /*.footer-col-4:hover, .footer-col-4:Facebook{ 
+	text-decoration: underline;
+	 } */
+ ul{
+list-style-type: none; 
+
+ } 
+ i{
+ 	 margin-right: 5px;
+ }
+ .container-fluid .footer{
+ 	background-color: #c6e8f2;
+ 
+ }
+/*---------------------footer-------------*/
+#footer
+{
+	background-color:#2FA5EB !important;
+	color: #fff;
+	padding: 12px;
+	font-family:Lato;
+}
+
+@media only screen and (max-width: 375px)  {
+
+	.iphone6{
+		padding-left: 75px;   
+		 font-size: 30px;
+    font-family: Lato;
+    
+    color: #1E8093;
+	}
+}
